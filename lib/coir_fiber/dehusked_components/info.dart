@@ -37,8 +37,8 @@ class _DehuskedInfoState extends State<CoirFiberInfo> {
 
   loadModel() async {
     await Tflite.loadModel(
-      model: 'assets/fibre.tflite',
-      labels: 'assets/fiberlabels.txt',
+      model: 'assets/coir_model.tflite',
+      labels: 'assets/coir_labels.txt',
     );
   }
 

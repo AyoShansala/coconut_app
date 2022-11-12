@@ -38,8 +38,8 @@ class _DehuskedInfoState extends State<DehuskedInfo> {
 
   loadModel() async {
     await Tflite.loadModel(
-      model: 'assets/dehusked_model.tflite',
-      labels: 'assets/dehuskedlabels.txt',
+      model: 'assets/dehusked_coconut.tflite',
+      labels: 'assets/dehusked_labels.txt',
     );
   }
 

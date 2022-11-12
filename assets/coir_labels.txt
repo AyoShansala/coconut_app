@@ -1,0 +1,4 @@
+0 Bristle Fibre
+1 Mattress Fibre
+2 Human Hair
+3 Strings

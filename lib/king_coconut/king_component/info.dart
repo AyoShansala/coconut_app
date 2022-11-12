@@ -39,8 +39,8 @@ class _KingInfoState extends State<KingInfo> {
 
   loadModel() async {
     await Tflite.loadModel(
-      model: 'assets/kingcoconut.tflite',
-      labels: 'assets/kinglabels.txt',
+      model: 'assets/kingcoconut_model.tflite',
+      labels: 'assets/king_labels.txt',
     );
   }
 
